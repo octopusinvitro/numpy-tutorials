@@ -12,8 +12,8 @@ jobs:
       - checkout
 
       - run:
-          name: Install deps for building atari-py
-          command: sudo apt-get update && sudo apt-get install -y cmake ffmpeg
+          name: Install deps for building matpotlib
+          command: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - run:
           name: Install Python dependencies

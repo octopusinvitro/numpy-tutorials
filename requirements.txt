@@ -7,8 +7,7 @@ pytest
 nbval
 statsmodels
 imageio
-gym==0.18.0
-atari-py==0.2.5
+gym[atari,accept-rom-license]
 pooch==1.5.1
 # For supporting .md-based notebooks
 jupytext
